@@ -1,12 +1,11 @@
 import React from "react";
-import Reproductor from "./reproductor.js";
-
+import Lista from "./Lista.js";
 
 //create your first component
 const Home = () => {
   return (
     <div className="text-center">
-      <Reproductor />
+      <Lista />
     </div>
   );
 };
